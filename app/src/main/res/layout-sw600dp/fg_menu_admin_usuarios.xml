@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".view.MenuAdminUsuarios">
+
+    <ImageButton
+        android:id="@+id/btCrearUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparente"
+        android:clickable="true"
+        android:contentDescription="@string/imgbutton"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/bt_crear"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.27" />
+
+    <ImageButton
+        android:id="@+id/btEditarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/transparente"
+        android:clickable="true"
+        android:contentDescription="@string/imgbutton"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/bt_editar"
+        app:layout_constraintEnd_toEndOf="@+id/btCrearUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btCrearUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/btCrearUsuario" />
+
+    <ImageButton
+        android:id="@+id/btBorrarCartaSelec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/transparente"
+        android:clickable="true"
+        android:contentDescription="@string/imgbutton"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/bt_borrar"
+        app:layout_constraintEnd_toEndOf="@+id/btEditarUsuario"
+        app:layout_constraintStart_toStartOf="@+id/btEditarUsuario"
+        app:layout_constraintTop_toBottomOf="@+id/btEditarUsuario" />
+
+    <ImageButton
+        android:id="@+id/btVolver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#00FFFFFF"
+        android:clickable="true"
+        android:contentDescription="@string/imgbutton"
+        android:focusable="true"
+        android:scaleType="center"
+        android:src="@drawable/bt_volver"
+        app:layout_constraintEnd_toEndOf="@+id/btBorrarCartaSelec"
+        app:layout_constraintStart_toStartOf="@+id/btBorrarCartaSelec"
+        app:layout_constraintTop_toBottomOf="@+id/btBorrarCartaSelec" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

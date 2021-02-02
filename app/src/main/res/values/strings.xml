@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">JungleQuiz</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imgbutton">boton</string>
+    <string name="logotula">logo tula games</string>
+    <string name="contrasenaAdmin">Contraseña</string>
+    <string name="repiteContraseña">Repite contraseña</string>
+    <string name="introduceContraseña">Introduce Contraseña</string>
+    <string name="musica">Música</string>
+    <string name="NombreDeUsuario">Nombre de usuario</string>
+    <string name="IntroduceNombreDeUsuario">Introduce el nombre de usuario</string>
+    <string name="contenedorimg">Contenedor de avatares</string>
+    <string name="Pregunta_uno">Pregunta uno</string>
+    <string name="Pregunta_dos">Pregunta dos</string>
+    <string name="Pregunta_tres">Pregunta tres</string>
+    <string name="Pregunta_cuatro">Pregunta cuatro</string>
+    <string name="Pregunta_cinco">Pregunta cinco</string>
+    <string name="Respuesta_uno">Respuesta uno</string>
+    <string name="Respuesta_dos">Respuesta dos</string>
+    <string name="Respuesta_tres">Respuesta tres</string>
+    <string name="Respuesta_cuatro">Respuesta cuatro</string>
+    <string name="Respuesta_cinco">Respuesta cinco</string>
+    <string name="url_de_la_imagen">Url de la imagen</string>
+    <string name="nombre_del_animal">Nombre del animal</string>
+    <string name="nombreAnimal">Introduce el nombre del animal</string>
+    <string name="descripcionAnimal">Escribe la descripción del animal</string>
+    <string name="respuestaCarta">Introduce la respuesta a la pregunta</string>
+    <string name="Altura">¿Cuánto mide? (cm)</string>
+    <string name="Peso">¿Cuánto pesa? (kg)</string>
+    <string name="Edad">¿Cúal es su edad media? (años)</string>
+    <string name="PoderMortifero">¿Cuánto poder mortífero tiene? (0-100)</string>
+    <string name="Velocidad">¿Cúal es su velocidad? (km/h)</string>
+    <string name="url">https://www.google.es/imghp?hl=es</string>
+    <string name="introduce_un_mail">Introduce un mail</string>
+</resources>

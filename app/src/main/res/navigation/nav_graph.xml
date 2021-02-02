@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logoInicio">
+
+    <fragment
+        android:id="@+id/crearEditarUsuario"
+        android:name="com.tulagames.junglequiz.view.CrearEditarUsuario"
+        android:label="fg_crear_editar_usuario"
+        tools:layout="@layout/fg_crear_editar_usuario">
+        <action
+            android:id="@+id/ac_crearEditarUsuario_to_menuAdminUsuarios"
+            app:destination="@id/menuAdminUsuarios" />
+    </fragment>
+    <fragment
+        android:id="@+id/respuestasCarta"
+        android:name="com.tulagames.junglequiz.view.RespuestasCarta"
+        android:label="fg_respuestas_carta"
+        tools:layout="@layout/fg_respuestas_carta">
+        <action
+            android:id="@+id/ac_respuestaCarta_to_finalizaJuego"
+            app:destination="@id/finalizaJuego" />
+        <action
+            android:id="@+id/ac_respuestasCarta_to_cartaEnJuego"
+            app:destination="@id/cartaEnJuego" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaUsuarios"
+        android:name="com.tulagames.junglequiz.view.ListaUsuarios"
+        android:label="fg_lista_usuarios"
+        tools:layout="@layout/fg_lista_usuarios" >
+        <action
+            android:id="@+id/ac_listaUsuarios_to_portada"
+            app:destination="@id/portada" />
+        <action
+            android:id="@+id/ac_listaUsuarios_to_cartaEnJuego"
+            app:destination="@id/cartaEnJuego" />
+        <action
+            android:id="@+id/ac_listaUsuarios_to_usuarioElegido"
+            app:destination="@id/usuarioElegido" />
+        <action
+            android:id="@+id/ac_listaUsuarios_to_menuAdminUsuarios"
+            app:destination="@id/menuAdminUsuarios" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginAdmin"
+        android:name="com.tulagames.junglequiz.view.LoginAdmin"
+        android:label="fg_login_ad"
+        tools:layout="@layout/fg_login_admin" >
+        <action
+            android:id="@+id/ac_loginAdmin_to_portada"
+            app:destination="@id/portada" />
+        <action
+            android:id="@+id/ac_loginAdmin_to_menuAdmin"
+            app:destination="@id/menuAdmin" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuAdmin"
+        android:name="com.tulagames.junglequiz.view.MenuAdmin"
+        android:label="fg_menu_admin"
+        tools:layout="@layout/fg_menu_admin">
+        <action
+            android:id="@+id/ac_menuAdmin_to_portada"
+            app:destination="@id/portada" />
+        <action
+            android:id="@+id/ac_menuAdmin_to_menuAdminUsuarios"
+            app:destination="@id/menuAdminUsuarios" />
+        <action
+            android:id="@+id/ac_menuAdmin_to_menuAdminCartas"
+            app:destination="@id/menuAdminCartas" />
+    </fragment>
+    <fragment
+        android:id="@+id/portada"
+        android:name="com.tulagames.junglequiz.view.Portada"
+        android:label="fg_portada"
+        tools:layout="@layout/fg_portada" >
+        <action
+            android:id="@+id/ac_portada_to_listaUsuarios"
+            app:destination="@id/listaUsuarios" />
+        <action
+            android:id="@+id/ac_portada_to_loginAd"
+            app:destination="@id/loginAdmin" />
+        <action
+            android:id="@+id/ac_portada_to_opcionesSistema"
+            app:destination="@id/opcionesSistema" />
+        <action
+            android:id="@+id/ac_portada_to_loginAdminRegistrado"
+            app:destination="@id/loginAdminRegistrado" />
+        <action
+            android:id="@+id/ac_portada_to_tutorial"
+            app:destination="@id/tutorial" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearCarta"
+        android:name="com.tulagames.junglequiz.view.CrearCarta"
+        android:label="fg_crear_carta"
+        tools:layout="@layout/fg_crea_carta" >
+        <action
+            android:id="@+id/ac_crearCarta_to_menuAdminCartas"
+            app:destination="@id/menuAdminCartas" />
+        <action
+            android:id="@+id/ac_crearCarta_to_crearRespuestas"
+            app:destination="@id/crearRespuestas" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalizaJuego"
+        android:name="com.tulagames.junglequiz.view.FinalizaJuego"
+        android:label="fg_finaliza_juego"
+        tools:layout="@layout/fg_finaliza_juego" >
+        <action
+            android:id="@+id/ac_finalizaJuego_to_portada"
+            app:destination="@id/portada" />
+        <action
+            android:id="@+id/ac_finalizaJuego_to_enviarMail"
+            app:destination="@id/enviarMail" />
+    </fragment>
+    <fragment
+        android:id="@+id/logoInicio"
+        android:name="com.tulagames.junglequiz.view.LogoInicio"
+        android:label="fg_logo_inicio"
+        tools:layout="@layout/fg_logo_inicio" >
+        <action
+            android:id="@+id/ac_logoInicio_to_portada"
+            app:destination="@id/portada" />
+    </fragment>
+    <fragment
+        android:id="@+id/opcionesSistema"
+        android:name="com.tulagames.junglequiz.view.OpcionesSistema"
+        android:label="fg_opciones_sistema"
+        tools:layout="@layout/fg_opciones_sistema" >
+        <action
+            android:id="@+id/ac_opcionesSistema_to_portada"
+            app:destination="@id/portada" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartaEnJuego"
+        android:name="com.tulagames.junglequiz.view.CartaEnJuego"
+        android:label="fg_carta_en_juego"
+        tools:layout="@layout/fg_carta_en_juego" >
+        <action
+            android:id="@+id/ac_cartaEnJuego_to_respuestasCarta"
+            app:destination="@id/respuestasCarta" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginAdminRegistrado"
+        android:name="com.tulagames.junglequiz.view.LoginAdminRegistrado"
+        android:label="fg_login_admin_registrado"
+        tools:layout="@layout/fg_login_admin_registrado" >
+        <action
+            android:id="@+id/ac_loginAdminRegistrado_to_menuAdmin"
+            app:destination="@id/menuAdmin" />
+        <action
+            android:id="@+id/ac_loginAdminRegistrado_to_portada"
+            app:destination="@id/portada" />
+    </fragment>
+    <fragment
+        android:id="@+id/usuarioElegido"
+        android:name="com.tulagames.junglequiz.view.UsuarioElegido"
+        android:label="fg_usuario_elegido"
+        tools:layout="@layout/fg_usuario_elegido" >
+        <action
+            android:id="@+id/ac_usuarioElegido_to_cartaEnJuego"
+            app:destination="@id/cartaEnJuego" />
+        <action
+            android:id="@+id/ac_usuarioElegido_to_listaUsuarios"
+            app:destination="@id/listaUsuarios" />
+        <action
+            android:id="@+id/ac_usuarioElegido_to_addUsuario"
+            app:destination="@id/crearEditarUsuario" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuAdminUsuarios"
+        android:name="com.tulagames.junglequiz.view.MenuAdminUsuarios"
+        android:label="fg_menu_admin_usuarios"
+        tools:layout="@layout/fg_menu_admin_usuarios" >
+        <action
+            android:id="@+id/ac_menuAdminUsuarios_to_crearEditarUsuario"
+            app:destination="@id/crearEditarUsuario" />
+        <action
+            android:id="@+id/ac_menuAdminUsuarios_to_menuAdmin"
+            app:destination="@id/menuAdmin" />
+        <action
+            android:id="@+id/ac_menuAdminUsuarios_to_listaUsuarios"
+            app:destination="@id/listaUsuarios" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuAdminCartas"
+        android:name="com.tulagames.junglequiz.view.MenuAdminCartas"
+        android:label="fg_menu_admin_cartas"
+        tools:layout="@layout/fg_menu_admin_cartas" >
+        <action
+            android:id="@+id/ac_menuAdminCartas_to_crearCarta"
+            app:destination="@id/crearCarta" />
+        <action
+            android:id="@+id/ac_menuAdminCartas_to_menuAdmin"
+            app:destination="@id/menuAdmin" />
+        <action
+            android:id="@+id/ac_menuAdminCartas_to_listaCartas"
+            app:destination="@id/listaCartas" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearRespuestas"
+        android:name="com.tulagames.junglequiz.view.CrearRespuestas"
+        android:label="fg_crear_respuestas"
+        tools:layout="@layout/fg_crear_respuestas">
+        <action
+            android:id="@+id/ac_crearRespuestas_to_crearCarta"
+            app:destination="@id/crearCarta" />
+        <action
+            android:id="@+id/ac_crearRespuestas_to_menuAdminCartas"
+            app:destination="@id/menuAdminCartas" />
+        <action
+            android:id="@+id/ac_crearRespuestas_to_listaCartas"
+            app:destination="@id/listaCartas" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaCartas"
+        android:name="com.tulagames.junglequiz.view.ListaCartas"
+        android:label="fg_lista_cartas"
+        tools:layout="@layout/fg_lista_cartas" >
+        <action
+            android:id="@+id/ac_listaCartas_to_menuAdminCartas"
+            app:destination="@id/menuAdminCartas" />
+        <action
+            android:id="@+id/ac_listaCartas_to_cartaElegida"
+            app:destination="@id/cartaElegida" />
+        <action
+            android:id="@+id/ac_listaCartas_to_crearCarta"
+            app:destination="@id/crearCarta" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartaElegida"
+        android:name="com.tulagames.junglequiz.view.CartaElegida"
+        android:label="fg_carta_elegida"
+        tools:layout="@layout/fg_carta_elegida" >
+        <action
+            android:id="@+id/ac_cartaElegida_to_listaCartas"
+            app:destination="@id/listaCartas" />
+        <action
+            android:id="@+id/ac_cartaElegida_to_editarRespuestas"
+            app:destination="@id/editarRespuestas" />
+    </fragment>
+    <fragment
+        android:id="@+id/editarRespuestas"
+        android:name="com.tulagames.junglequiz.view.EditarRespuestas"
+        android:label="fg_editar_respuestas_cartas"
+        tools:layout="@layout/fg_editar_respuestas_cartas">
+        <action
+            android:id="@+id/ac_editarRespuestas_to_cartaElegida"
+            app:destination="@id/cartaElegida" />
+        <action
+            android:id="@+id/ac_editarRespuestas_to_crearCarta"
+            app:destination="@id/crearCarta" />
+        <action
+            android:id="@+id/ac_editarRespuestas_to_listaCartas"
+            app:destination="@id/listaCartas" />
+    </fragment>
+    <fragment
+        android:id="@+id/enviarMail"
+        android:name="com.tulagames.junglequiz.view.EnviarMail"
+        android:label="fg_enviar_mail"
+        tools:layout="@layout/fg_enviar_mail" >
+        <action
+            android:id="@+id/ac_enviarMail_to_finalizaJuego"
+            app:destination="@id/finalizaJuego" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorial"
+        android:name="com.tulagames.junglequiz.view.Tutorial"
+        android:label="fg_tutorial"
+        tools:layout="@layout/fg_tutorial" >
+        <action
+            android:id="@+id/ac_tutorial_to_portada"
+            app:destination="@id/portada" />
+    </fragment>
+</navigation>

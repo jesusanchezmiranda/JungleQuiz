@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="av_cuerpo">
+        <item>@drawable/av_ardi</item>
+        <item>@drawable/av_ciervo</item>
+        <item>@drawable/av_castor</item>
+        <item>@drawable/av_mapache</item>
+        <item>@drawable/av_conejillo</item>
+        <item>@drawable/av_tigre</item>
+        <item>@drawable/av_leon</item>
+        <item>@drawable/av_elefante</item>
+        <item>@drawable/av_hipo</item>
+        <item>@drawable/av_zorra</item>
+        <item>@drawable/av_osa</item>
+        <item>@drawable/av_mofeta</item>
+    </array>
+</resources>

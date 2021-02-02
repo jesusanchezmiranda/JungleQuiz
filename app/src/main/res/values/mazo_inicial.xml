@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="imgs">
+        <item></item>
+        <item>https://media.giphy.com/media/Cou3eDclF0R32/giphy.gif</item>
+        <item>https://media.giphy.com/media/c5iMjFfrUFpza/giphy.gif</item>
+        <item>https://media.giphy.com/media/2tQXthefmROnjrCb52/giphy.gif</item>
+        <item>https://media.giphy.com/media/3o7TKpDXwgjFm9aVMY/giphy.gif</item>
+        <item>https://media.giphy.com/media/VJHv5qiozzkOVPCcso/giphy.gif</item>
+        <item>https://media.giphy.com/media/1Ygkk70ho1h6YrK6oC/giphy.gif</item>
+    </string-array>
+    <string-array name="nombre_animal">
+        <item></item>
+        <item>León</item>
+        <item>Elefante</item>
+        <item>Oso</item>
+        <item>Zorro</item>
+        <item>Jirafa</item>
+        <item>Tigre</item>
+    </string-array>
+    <string-array name="descripcion">
+        <item></item>
+        <item>El león o Panthera leo es un depredador carnívoro que mide 120 cm. Su peso es su altura más 75. Su edad media de vida es 8 veces menor que su altura. Su poder mortífero es su altura menos 35 y su velocidad es 10 veces 8.</item>
+        <item>El elefante o elephantidae es un mamíferos que mide 2 veces 100 cm. Su peso es 30 veces su altura. Su edad media de vida es de 15 por 4. Su poder mortífero es 70 y su velocidad es su poder mortífero menos 45.</item>
+        <item>El oso o Ursus Arctos es un mamífero carnívoro que mide 50 veces 3 cm. Su peso es 450. Su edad media de vida es de 5x4. Su poder mortífero es cuatro veces su edad media y su velocidad es 9 veces menor que su peso.</item>
+        <item>El zorro o Vulpes Vulpes es una especie de mamífero que mide (25+25-10) cm. Su peso es de 12/2 kg. Su edad media de vida es de 5 años. Su poder mortífero es seis veces su edad media y su velocidad es (100/2)+15.</item>
+        <item>La jirafa o Giraffa camelopardalis es un mamífero artiodáctilo propio de África que mide 100x4 cm. Su peso es el doble de su altura. Su edad media de vida es de 25 años. Su poder mortífero es 15-10 y su velocidad es su poder mortífero menos 100-45.</item>
+        <item>El tigre o Panthera tigris es un depredador carnívoro que mide (120-32) cm. Su peso es el triple de su altura. Su edad media de vida es de 15 años. Su poder mortífero es seis veces su edad media y su velocidad es su poder mortífero menos 30.</item>
+    </string-array>
+    <string-array name="resp1">
+        <item> </item>
+        <item>120</item>
+        <item>200</item>
+        <item>150</item>
+        <item>40</item>
+        <item>400</item>
+        <item>88</item>
+    </string-array>
+    <string-array name="resp2">
+        <item></item>
+        <item>195</item>
+        <item>6000</item>
+        <item>450</item>
+        <item>6</item>
+        <item>800</item>
+        <item>264</item>
+    </string-array>
+    <string-array name="resp3">
+        <item></item>
+        <item>15</item>
+        <item>60</item>
+        <item>20</item>
+        <item>5</item>
+        <item>25</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="resp4">
+        <item></item>
+        <item>85</item>
+        <item>70</item>
+        <item>100</item>
+        <item>30</item>
+        <item>5</item>
+        <item>90</item>
+    </string-array>
+    <string-array name="resp5">
+        <item></item>
+        <item>80</item>
+        <item>25</item>
+        <item>50</item>
+        <item>65</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="av_circulos">
+        <item>@drawable/btn_castor</item>
+        <item>@drawable/btn_leon</item>
+        <item>@drawable/btn_ciervo</item>
+        <item>@drawable/btn_ardi</item>
+        <item>@drawable/btn_elefante</item>
+        <item>@drawable/btn_conejillo</item>
+        <item>@drawable/btn_hipo</item>
+        <item>@drawable/btn_mapache</item>
+        <item>@drawable/btn_mofeta</item>
+        <item>@drawable/btn_osa</item>
+        <item>@drawable/btn_tigre</item>
+        <item>@drawable/btn_zorra</item>
+    </array>
+</resources>
